@@ -11,7 +11,7 @@ The Educational ERP System is a comprehensive platform designed to streamline th
 
 ### Technology Stack
 Frontend: - [React](https://react.dev/)  
-Backend: - [Node.js](https://nodejs.org/en), - [Express.js](https://expressjs.com/)  
+Backend: - [Node.js](https://nodejs.org/en),  [Express.js](https://expressjs.com/)  
 Database: - [MongoDB](https://www.mongodb.com/)  
 AI Integration: -[Google Gemini API](https://aistudio.google.com/prompts/new_chat?gad_source=1&gclid=Cj0KCQiA_Yq-BhC9ARIsAA6fbAj49YRwg5jFnOu5w7ohu3PbUBoWTHvdjBd2NAV6RwJQh4Zlli3IlpMaAnLEEALw_wcB)  
 Authentication: -[JWT for secure login](https://jwt.io/)
@@ -119,7 +119,7 @@ Acadex is deployed on a cloud platform, so you don’t need to set up the projec
 
 
 ### Contributers
- [Jay Chinche](https://github.com/jaychinche) – Project Lead,  UI/UX Design  ,Backend Development
+ [Jay Chinche](https://github.com/jaychinche) – Project Lead,  UI/UX Design  ,Backend Development                
  [Avadhut Chavan](https://github.com/AvadhutChavan12) – Api Integration,Backend Development  
  [Riya Kute](https://github.com/KUTERIYAR5) –  Frontend Development,   
  [Lokesh Meshram](https://github.com/LokeshMeshram32) – Database Management
