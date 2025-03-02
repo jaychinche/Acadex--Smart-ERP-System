@@ -60,7 +60,7 @@ export default function NotificationSend() {
     event.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:4000/sendmail', {
+      const response = await axios.post('https://team-dhanush.onrender.com/sendmail', {
         subject,
         message,
         sendToStudents,
