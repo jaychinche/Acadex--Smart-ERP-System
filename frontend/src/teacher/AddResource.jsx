@@ -65,7 +65,7 @@ export default function AddResource(props) {
     }
 
     try {
-      await axios.post(`http://localhost:4000/course/${id}/resource`, {
+      await axios.post(`https://team-dhanush.onrender.com/${id}/resource`, {
         res_title: resourceTitle,
         drive_link: driveLink,
       });
