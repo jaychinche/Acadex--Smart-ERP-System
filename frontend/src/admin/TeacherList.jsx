@@ -33,7 +33,7 @@ export default function TeacherList(props) {
   const handleDelete = async (id) => {
     if (window.confirm("Are you sure you want to delete this teacher?")) {
       try {
-        await axios.delete(`http://localhost:4000/delete-teacher/${id}`);
+        await axios.delete(`https://team-dhanush.onrender.com/delete-teacher/${id}`);
         setTeachers(teachers.filter((teacher) => teacher._id !== id));
       } catch (error) {
         console.error("Error deleting teacher:", error);
