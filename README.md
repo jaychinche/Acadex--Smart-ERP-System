@@ -113,7 +113,7 @@ Acadex is deployed on a cloud platform, so you don’t need to set up the projec
 ---
 
 ## Deployed Url
-Acadex Educational ERP System(https://hm-0073-dhanush.vercel.app/)
+[Acadex Educational ERP System](https://hm-0073-dhanush.vercel.app/)
 
 ## Video Url
 [Demo Video Drive URL](https://drive.google.com/drive/folders/1YF6VwGoIRWwU1jJGu17BMFcY_XUM1fKK?usp=sharing)
