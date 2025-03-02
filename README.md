@@ -46,6 +46,7 @@ Acadex is deployed on a cloud platform, so you don’t need to set up the projec
      View detailed profiles of students and teachers, add new users, or remove existing ones as needed.
    - **Notification Center:**  
      Compose and send messages to both students and teachers to ensure smooth communication.
+     ![Login Page Screenshot](image/Dashboard.jpg)
 
 2. **Teacher Dashboard:**  
    - **Courses Overview:**  
@@ -54,7 +55,7 @@ Acadex is deployed on a cloud platform, so you don’t need to set up the projec
      - **Quiz Generation:** Generate quizzes dynamically using the Gemini API. Simply input a quiz topic, and the system auto-generates a quiz with three multiple-choice questions (each having exactly four options and a designated correct answer). The generated quiz is then saved in the database with an accessible link.
    - **Notifications:**  
      Stay updated with messages and alerts regarding your courses and assignments.
-   ![Teacher_List](image/ViewTeacher.jpg)
+   ![Teacher_List](image/TeacherDashboard.jpg)
 
 3. **Student Dashboard:**  
    - **Course Navigation:**  
@@ -63,7 +64,7 @@ Acadex is deployed on a cloud platform, so you don’t need to set up the projec
      Upon selecting a course, switch between two tabs:
      - **Resources:** Access the course materials, complete with titles and drive links.
      - **Quizzes:** Click on quiz links to attempt assessments and receive immediate feedback.
-   ![Student_List](image/StudentView)
+   ![Student Dashboard](image/CourseList.jpg)
 
 ---
 
@@ -72,27 +73,43 @@ Acadex is deployed on a cloud platform, so you don’t need to set up the projec
 1. **For Admins:**  
    - **Monitoring and Management:**  
      Easily monitor detailed student and teacher profiles, manage user credentials, and remove or add users as needed.
+       ![Admin User Management Screenshot](image/AddTeacher.jpg)
    - **Broadcast Notifications:**  
      Send targeted or bulk notifications to keep the entire institution updated.
-   ![Admin User Management Screenshot](image/AddTeacher.jpg)
    ![Notification_Sending](image/SendNotification.jpg)
 
-2. **For Teachers:**  
+   - **Student Monitoring:**
+   View and Monitor students performance 
+   ![Student Moniter](image/StudentMonitor.jpg)
+
+2. **For Teachers:**
+   -**Dashboard:**
+   This will be the dashboard for teacher from this they can access their respective Courses.
+    ![Teacher_Dashboard](image/TeacherDashboard.jpg)
    - **Course Management:**  
      View and manage the courses assigned to you, ensuring timely delivery of content and assignments.
+       ![Courses](image/CourseList.jpg)
    - **Resource Upload:**  
      Seamlessly upload and share resources by entering a title and a Google Drive link.
+      ![Resource Sharing](image/AddResource.jpg)
    - **Automated Quiz Generation:**  
      Generate quizzes using the integrated Gemini API by simply providing a quiz topic. The system returns a fully formatted quiz (in JSON format) which is then stored for student access.
-   ![Teacher_Dashboard]()
+     ![Quiz Generation](image/QuiseGeneration.jpg)
+      In above image we see the generation of quize. Now we are saving the quize to the database to access it later.
+     ![Save Quiz](image/SaveQuize.jpg)
 
-3. **For Students:**  
+
+4. **For Students:**
+   -**Student Dashboard**
+     ![Student Course_Details](image/CourseList.jpg)
    - **Interactive Learning:**  
      Access course materials and quizzes effortlessly from your dashboard.
+     ![Resource Accesing](image/CourseList.jpg)
    - **Instant Feedback:**  
      Receive immediate feedback after attempting quizzes to help track your progress.
-   ![Student Course Details Screenshot](image/screenshot_student_course_details.png)
+      ![Give Quiz](image/TakeQuiz.jpg)
 
+   
 ---
 
 
