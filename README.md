@@ -35,7 +35,7 @@ Acadex is deployed on a cloud platform, so you don’t need to set up the projec
    - **Admins:** Log in to manage users, view detailed profiles, add or remove students/teachers, and send notifications.  
    - **Teachers:** Sign up to create and manage quizzes, share resources, and receive notifications.  
    - **Students:** Register to access courses, attempt quizzes, view scores, and receive alerts.  
-   ![Login Page Screenshot](images/screenshot_login.png)
+   ![Login Page Screenshot](images/AdminLogin)
 
 ---
 
@@ -46,7 +46,6 @@ Acadex is deployed on a cloud platform, so you don’t need to set up the projec
      View detailed profiles of students and teachers, add new users, or remove existing ones as needed.
    - **Notification Center:**  
      Compose and send messages to both students and teachers to ensure smooth communication.
-   ![Admin Dashboard Screenshot](images/screenshot_admin_dashboard.png)
 
 2. **Teacher Dashboard:**  
    - **Courses Overview:**  
@@ -55,7 +54,7 @@ Acadex is deployed on a cloud platform, so you don’t need to set up the projec
      - **Quiz Generation:** Generate quizzes dynamically using the Gemini API. Simply input a quiz topic, and the system auto-generates a quiz with three multiple-choice questions (each having exactly four options and a designated correct answer). The generated quiz is then saved in the database with an accessible link.
    - **Notifications:**  
      Stay updated with messages and alerts regarding your courses and assignments.
-   ![Teacher Dashboard Screenshot](images/screenshot_teacher_dashboard.png)
+   ![Teacher_List](images/ViewTeacher.jpg)
 
 3. **Student Dashboard:**  
    - **Course Navigation:**  
@@ -64,7 +63,7 @@ Acadex is deployed on a cloud platform, so you don’t need to set up the projec
      Upon selecting a course, switch between two tabs:
      - **Resources:** Access the course materials, complete with titles and drive links.
      - **Quizzes:** Click on quiz links to attempt assessments and receive immediate feedback.
-   ![Student Dashboard Screenshot](images/screenshot_student_dashboard.png)
+   ![Student_List](images/StudentView)
 
 ---
 
@@ -75,7 +74,8 @@ Acadex is deployed on a cloud platform, so you don’t need to set up the projec
      Easily monitor detailed student and teacher profiles, manage user credentials, and remove or add users as needed.
    - **Broadcast Notifications:**  
      Send targeted or bulk notifications to keep the entire institution updated.
-   ![Admin User Management Screenshot](images/screenshot_admin_user_management.png)
+   ![Admin User Management Screenshot](AddTeacher.jpg)
+   ![Notification_Sending](SendNotification.jpg)
 
 2. **For Teachers:**  
    - **Course Management:**  
@@ -84,7 +84,7 @@ Acadex is deployed on a cloud platform, so you don’t need to set up the projec
      Seamlessly upload and share resources by entering a title and a Google Drive link.
    - **Automated Quiz Generation:**  
      Generate quizzes using the integrated Gemini API by simply providing a quiz topic. The system returns a fully formatted quiz (in JSON format) which is then stored for student access.
-   ![Teacher Course and Quiz Screenshot](images/screenshot_teacher_course_quiz.png)
+   ![Teacher_Dashboard]()
 
 3. **For Students:**  
    - **Interactive Learning:**  
