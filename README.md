@@ -35,7 +35,7 @@ Acadex is deployed on a cloud platform, so you don’t need to set up the projec
    - **Admins:** Log in to manage users, view detailed profiles, add or remove students/teachers, and send notifications.  
    - **Teachers:** Sign up to create and manage quizzes, share resources, and receive notifications.  
    - **Students:** Register to access courses, attempt quizzes, view scores, and receive alerts.  
-   ![Login Page Screenshot](images/AdminLogin)
+   ![Login Page Screenshot](images/AdminLogin.jpg)
 
 ---
 
