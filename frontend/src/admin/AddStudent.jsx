@@ -68,7 +68,7 @@ export default function AddStudent(props) {
     };
 
     try {
-      await axios.post("http://localhost:4000/add-students", studentData);
+      await axios.post("https://team-dhanush.onrender.com/add-students", studentData);
       setAlertMessage("Student added successfully!");
       setAlertType("success");
       setTimeout(() => navigate("/dashboard-admin"), 2000);
