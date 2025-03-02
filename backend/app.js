@@ -44,7 +44,7 @@ app.use(cookieParser());
 
 const ORIGIN=process.env.ORIGIN;
 app.use(cors({
-  origin: ORIGIN,
+  origin: "https://team-dhanush-frontend-r07yp0nkw-jaychinches-projects.vercel.app",
   credentials: true,  
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization",'x-auth-token']
