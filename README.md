@@ -19,7 +19,7 @@ Authentication: -[JWT for secure login](https://jwt.io/)
 
 ### Getting Started
 
-Acadex is deployed on a cloud platform, so you don’t need to set up the project locally. Follow the steps below to access and explore the system with ease.
+Acadex is deployed on a cloud platform, so you don’t need to set up the project locally. Follow the steps below to access and explore the system with ease. [Clikc Here](https://hm-0073-dhanush.vercel.app/)
 
 #### Prerequisites
 - **Web Browser:** Google Chrome, Firefox, Edge, etc.  
