@@ -71,7 +71,7 @@ export default function AddTeacher(props) {
     };
 
     try {
-      await axios.post("http://localhost:4000/teachers/add", teacherData);
+      await axios.post("https://team-dhanush.onrender.com/teachers/add", teacherData);
       setAlertMessage("Teacher added successfully!");
       setAlertType("success");
       setTimeout(() => navigate("/teacher-list"), 2000);
