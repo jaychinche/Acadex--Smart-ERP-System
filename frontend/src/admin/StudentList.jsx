@@ -20,7 +20,7 @@ export default function StudentList(props) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/view-student-list") // Update with actual backend URL
+      .get("https://team-dhanush.onrender.com/view-student-list") // Update with actual backend URL
       .then((response) => {
         setStudents(response.data);
       })
@@ -32,7 +32,7 @@ export default function StudentList(props) {
   const handleDelete = async (id) => {
     if (window.confirm("Are you sure you want to delete this student?")) {
       try {
-        await axios.delete(`http://localhost:4000/delete-student/${id}`);
+        await axios.delete(`https://team-dhanush.onrender.com/delete-student/${id}`);
         setStudents(students.filter((student) => student._id !== id));
       } catch (error) {
         console.error("Error deleting student:", error);
