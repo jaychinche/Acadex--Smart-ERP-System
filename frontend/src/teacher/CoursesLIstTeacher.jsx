@@ -24,7 +24,7 @@ export default function CoursesListTeacher(props) {
       try {
         const t_id = "67c3635cc1e8c83fe89c9c05"; // Replace with the actual teacher ID (e.g., from props or context)
         const response = await axios.get(
-          `http://localhost:4000/course-list?t_id=${t_id}`
+          `https://team-dhanush.onrender.com/course-list?t_id=${t_id}`
         );
         setCourses(response.data);
         setLoading(false);
