@@ -20,7 +20,7 @@ export default function TeacherList(props) {
   useEffect(() => {
     const fetchTeachers = async () => {
       try {
-        const response = await axios.get("http://localhost:4000/view-teacher-list");
+        const response = await axios.get("https://team-dhanush.onrender.com/view-teacher-list");
         setTeachers(response.data);
       } catch (error) {
         console.error("Error fetching teachers:", error);
